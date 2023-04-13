@@ -31,4 +31,4 @@ jobs:
       
       # Runs a single command using the runners shell
       - name: Execute script
-        run: ./.github/my-new-repository/script.sh
+        run: ./.github/workflows/script.sh
