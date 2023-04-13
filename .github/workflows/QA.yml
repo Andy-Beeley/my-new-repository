@@ -28,3 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: List current dir contents
         run: ls -al
+      
+      # Runs a single command using the runners shell
+      - name: Execute script
+        run: ./.github/my-new-repository/script.sh
